@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sobre">
+
+    <TextView
+        android:id="@+id/so_tv_logo"
+        android:layout_width="195dp"
+        android:layout_height="84dp"
+        android:background="@drawable/gibson_logo_top"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="1dp" /> "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/so_tv_textoSobre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="A Gibson Brands, Inc.,fundada em Kalamazoo, Michigan e atualmente em Nashville no Tennessee, foi uma empresa fabricante de guitarras e outros instrumentos que são vendidos sob uma variedade de marcas diferentes. Com uma história de mais de cem anos, Gibson tem sido uma das companhias mais notórias no desenvolvimento da viola e da guitarra elétrica e construiu ao longo de todos esses anos um dos modelos de guitarras mais icônicos do mundo, a Gibson Les Paul. Muitos de seus instrumentos continuam se valorizando ainda mais no mercado e algumas Gibsons estão entre as guitarras mais procuradas por colecionadores.
+
+A empresa foi fundada por Orville Gibson, que produzia bandolim em Kalamazoo, no final dos anos 1890. Ele inventou as guitarras semiacústicas usando o mesmo tipo de tampo arqueado encontrado nos violinos. A partir de 1930, a companhia também tinha feito violões com tampo, como também foi uma das primeiras a disponibilizar no mercado guitarras semiacústicas usadas e popularizadas por Charlie Christian. Gibson esteve na vanguarda da inovação com relação às guitarras acústicas, especialmente na era da Big Band de 1930. A Gibson Super 400 foi amplamente imitada. No começo dos anos 50, Gibson introduziu sua primeira guitarra de corpo sólido e em 1952 começou a produzir seu modelo de guitarra mais popular, a Les Paul, projetada por Ted McCarty e Les Paul; Depois de ser comprada pela Norlin Corporation no final dos anos 60, a qualidade e a fortuna da Gibson começou a declinar até 1986, quando a companhia foi adquirida por seus proprietários atuais."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/so_tv_logo" />
+
+</android.support.constraint.ConstraintLayout>

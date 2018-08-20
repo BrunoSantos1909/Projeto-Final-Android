@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="bruno.santos.projetofinal.MainActivity">
+
+    <item
+        android:id="@+id/menu_sobre"
+        android:orderInCategory="100"
+        android:title="Sobre"
+        android:icon="@drawable/baseline_info_black_24"
+        app:showAsAction="always" />
+
+</menu>
+
+

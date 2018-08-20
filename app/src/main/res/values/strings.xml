@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProjetoFinal</string>
+    <string name="action_settings">Settings</string>
+    <string name="lo_et_nome">Nome</string>
+    <string name="lo_et_senha">Senha</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="ca_et_marca">Marca</string>
+    <string name="ca_et_modelo">Modelo</string>
+    <string name="ca_et_preco">Preco</string>
+    <string name="ca_et_ano">Ano</string>
+</resources>
