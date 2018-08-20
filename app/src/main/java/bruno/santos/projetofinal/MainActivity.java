@@ -127,7 +127,8 @@ public class MainActivity extends AppCompatActivity {
 
                         switch ((int)drawerItem.getIdentifier()){
                             case 0:
-                                Toast.makeText(getBaseContext(),"Você clicou no menu Home",Toast.LENGTH_LONG).show();
+                                Intent itContato = new Intent(MainActivity.this, Contato.class);
+                                startActivity(itContato);
                                 break;
 
                             case 1:

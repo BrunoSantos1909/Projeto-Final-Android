@@ -1,6 +1,8 @@
 package bruno.santos.projetofinal.model;
 
-public class Guitarra {
+import java.io.Serializable;
+
+public class Guitarra implements Serializable {
 
     private String key;
     private String marca;

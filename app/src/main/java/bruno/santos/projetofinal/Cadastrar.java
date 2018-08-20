@@ -1,6 +1,7 @@
 package bruno.santos.projetofinal;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -90,11 +91,13 @@ public class Cadastrar extends AppCompatActivity {
         adapter.setOnItemClickListener(new GuitarraAdapter.ClickListener() {
             @Override
             public void onItemClick(int position, View view) {
-                Toast.makeText(
-                        getBaseContext(),
-                        "Clicou na posiçao: "+position +
-                                "\ncliente: "+guitarras.get(position),
-                        Toast.LENGTH_SHORT).show();
+                Guitarra g = guitarras.get(position);
+
+                Intent it = new Intent(Cadastrar.this, Dados.class);
+                it.putExtra("g",g);
+                startActivity(it);
+
+
             }
 
             @Override
